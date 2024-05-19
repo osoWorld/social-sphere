@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SocialSphere</string>
+
+    <string name="Interact_Title">Interact with the world</string>
+    <string name="Interact_Description">Interact with anyone and at anytime you want through our App</string>
+    <string name="Chat_Title">Chat with your friends</string>
+    <string name="Chat_Description">Chat with your friends, family at anytime and from anywhere you are through our App</string>
+    <string name="ShareImage_Title">Share your Images &amp; Videos</string>
+    <string name="ShareImage_Description">Share your Images, Videos &amp; thoughts around the world and get their opinions</string>
+
 </resources>

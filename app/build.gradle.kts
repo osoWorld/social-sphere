@@ -25,6 +25,9 @@ android {
             )
         }
     }
+    buildFeatures {
+        viewBinding = true
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -42,4 +45,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     implementation (libs.lottie)
+
+//    implementation ("com.airbnb.android:lottie:6.4.0")
 }
