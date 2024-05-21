@@ -87,7 +87,7 @@ public class OnBoardingScreenActivity extends AppCompatActivity {
 
         for (int i = 0; i < dots.length; i++){
             dots[i] = new TextView(this);
-            dots[i].setText(Html.fromHtml("&#8226;"));
+            dots[i].setText(Html.fromHtml("&#8226"));
             dots[i].setTextSize(35);
             dots[i].setTextColor(getResources().getColor(R.color.pink_bg));
             binding.dotIndicator.addView(dots[i]);

@@ -16,9 +16,9 @@ import com.example.socialsphere.R;
 public class OnBoardingViewPagerAdapter extends PagerAdapter {
 
     Context context;
-    int sliderAnimations[] = {R.raw.interact_with_world, R.raw.chat_with_anyone, R.raw.share_picture};
-    int sliderTitle[] = {R.string.Interact_Title, R.string.Chat_Title, R.string.ShareImage_Title};
-    int sliderDescription[] = {R.string.Interact_Description, R.string.Chat_Description, R.string.ShareImage_Description};
+    int[] sliderAnimations = {R.raw.interact_with_world, R.raw.chat_with_anyone, R.raw.share_picture};
+    int[] sliderTitle = {R.string.Interact_Title, R.string.Chat_Title, R.string.ShareImage_Title};
+    int[] sliderDescription = {R.string.Interact_Description, R.string.Chat_Description, R.string.ShareImage_Description};
 
     public OnBoardingViewPagerAdapter(Context context) {
         this.context = context;
